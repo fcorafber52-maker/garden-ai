@@ -174,5 +174,21 @@
         </footer>
 
     </div>
+    <script>
+(function(){
+  var script = document.createElement('script');
+  script.src = 'https://cdn.eesel.ai/loader.js';
+  script.async = true;
+  script.onload = function() {
+    if (window.EeselWidgetWithTrigger) {
+      window.EeselWidgetWithTrigger({ triggerId: 'c4adf24e-0939-4248-93f8-596494fcd004' });
+    } else {
+      window.__EESEL_WIDGET_V2_CONFIG__ = { EESEL_TRIGGER_ID: 'c4adf24e-0939-4248-93f8-596494fcd004' };
+    }
+  };
+  document.head.appendChild(script);
+})();
+</script>
+
 </body>
 </html>
